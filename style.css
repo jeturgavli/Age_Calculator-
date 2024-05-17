@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #d104ff;
+}
+.head {
+  text-align: center;
+  margin-top: 1.12em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #740ccf;
+  background: linear-gradient(to right, #740ccf 0%, #d104ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {
+  width: min(60%, 25.12em);
+  height: min(100%, 32em);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+  margin-bottom: 3.12em;
+  padding: 1em;
+  border-radius: 1em;
+}
+.container * {
+  border: none;
+  outline: none;
+}
+.input-wrapper {
+  padding: 1em 2.5em;
+  margin-bottom: 0.12em;
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 2em;
+}
+.name-wrapper {
+  grid-template-columns: 1fr;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+input,
+button {
+  font-weight: 500;
+  border-radius: 0.31em;
+}
+input {
+  background-color: #eeeeff;
+  color: #080808;
+  padding: 1.2em 1.25em;
+  font-size: 0.87em;
+}
+button {
+  color: #ffffff;
+  background-color: #d104ff;
+}
+.output-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.output-wrapper div {
+  height: 6.25em;
+  width: 6.25em;
+  color: #080808;
+  display: grid;
+  place-items: center;
+}
+span {
+  font-size: 1.87em;
+  font-weight: 500;
+}
+p {
+  font-size: 0.87em;
+  color: #707070;
+  font-weight: 400;
+}
+.message {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1em;
+  color: #080808;
+}
+.image {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  left: -262px;
+  top: 100.5px;
+}
